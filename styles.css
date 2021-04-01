@@ -1,0 +1,237 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0, 0, 0, 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #272727
+}
+
+.container {
+    max-width: 950px;
+    max-height: 3035px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    -webkit-box-shadow:0px 5px 10px #1c1c1c;
+    -moz-box-shadow:0px 5px 10px #1c1c1c;
+    box-shadow:0px 5px 10px #1c1c1c;  
+}
+
+.nav {
+    background-color: #fc4444;
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 950px;
+}
+
+.logo {
+    margin-top: 15px;
+    font-size: 1.4rem;
+}
+
+.links {
+    margin-top: 30px;
+    font-size: 1rem;
+    text-align: right;
+    color: #cafafe;
+}
+
+.links a {
+    color: #cafafe;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Londrina Sketch', cursive;
+    text-align: left;
+    font-size: 72px;
+    margin: 0px;
+    color: #cafafe;
+}
+
+.Home {
+    background-color: #fc4444;
+    max-width: 950px;
+    min-height: 550px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('img/HomeImage.png');
+    background-size: auto 550px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right bottom;
+    text-align: center;
+}
+
+#Header {
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: 100px;
+    padding-top: 200px;
+
+}
+
+h2 {
+    font-family: 'Londrina Sketch', cursive;
+    text-align: left;
+    font-size: 72px;
+    margin: 0px;
+}
+
+p1 {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: x-small;
+    margin: 0px;
+}
+
+#profile {
+    background-color: #96caef;
+    max-width: 950px;
+    min-height: 600px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: flex;
+    color: rgb(53, 53, 53);
+}
+
+#profile_picture {
+    background-image: url('img/Profile.JPG');
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 400px;
+    height: 600px;
+    margin: 0;
+}
+
+#profile_text {
+    max-width: 300px;
+    min-height: 280px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+#Portfolio_graphic {
+    background-color: #cafafe;
+    max-width: 950px;
+    min-height: 600px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-family: 'Londrina Sketch', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #55bcca;
+    margin-top: 20px;
+
+}
+
+#graphic_title {
+    max-width: 950px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.graphic_lightbox {
+    max-width: 950px;
+    min-height: 500px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#Portfolio_photography {
+    background-color: #3feee7;
+    max-width: 950px;
+    min-height: 600px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#photography_title {
+    max-width: 950px;
+    height: 110px;
+    overflow: hidden;
+}
+
+
+.photography_lightbox {
+    max-width: 950px;
+    min-height: 490px;
+    overflow: hidden;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Londrina Sketch', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(53, 53, 53);
+    margin-top: 20px;
+
+}
+
+#contact {
+    background-color: #55bcca;
+    max-width: 950px;
+    min-height: 600px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('img/Sketchbook.png');
+    background-size: 550px auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right bottom;
+}
+
+p2 {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: small;
+    margin: 0px;
+    color: #cafafe;
+}
+
+a:hover {
+    color:rgb(53, 53, 53);
+}
+
+#contact_text {
+    max-width: 380px;
+    min-height: 560px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.footer {
+    background-color: #fc4444;
+    max-width: 950px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: x-small;
+}
